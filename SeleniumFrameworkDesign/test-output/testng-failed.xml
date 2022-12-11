@@ -4,17 +4,6 @@
   <listeners>
     <listener class-name="EndToEndFramework.TestComponents.Listener"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="Error Validations Test(failed)">
-    <classes>
-      <class name="EndToEndFramework.tests.ErrorValidationsTest">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="launchApplication"/>
-          <include name="productErrorValidation"/>
-        </methods>
-      </class> <!-- EndToEndFramework.tests.ErrorValidationsTest -->
-    </classes>
-  </test> <!-- Error Validations Test(failed) -->
   <test thread-count="5" parallel="tests" name="Submit Order Test(failed)">
     <classes>
       <class name="EndToEndFramework.tests.SubmitOrderTest">

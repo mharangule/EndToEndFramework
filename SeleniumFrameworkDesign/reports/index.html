@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Web Automation Result</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Dec 10, 2022 05:21:56 pm</span></a>
+<a href="#"><span class="badge badge-primary">Dec 11, 2022 01:14:42 pm</span></a>
 </li>
 </ul>
 </div>
@@ -80,78 +80,38 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="fail" test-id="1"
+        <li class="test-item"  status="pass" test-id="1"
           author=""
           tag=""
           device="">
-          <div class="status-avatar fail-bg">
-            <i class="fa fa-times text-white"></i>
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
           </div>
           <div class="test-detail">
             <span class="meta text-white badge badge-sm"></span>
-            <p class="name">productErrorValidation</p>
-            <p class="text-sm"><span>17:22:13 pm</span> / <span>30:12:606</span></p>
+            <p class="name">submitOrder</p>
+            <p class="text-sm"><span>13:14:52 pm</span> / <span>30:19:418</span></p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
 <div class='float-right'><span class='badge badge-default'>#test-id=1</span></div>
-<h5 class="test-status text-fail">productErrorValidation</h5>
-<span class='badge badge-success'>12.10.2022 17:22:13</span>
-<span class='badge badge-danger'>12.10.2022 17:22:26</span>
-<span class='badge badge-default'>30:12:606</span>
+<h5 class="test-status text-pass">submitOrder</h5>
+<span class='badge badge-success'>12.11.2022 13:14:52</span>
+<span class='badge badge-danger'>12.11.2022 13:15:12</span>
+<span class='badge badge-default'>30:19:418</span>
 </div>
 </div>
-</div>    <div class="row mb-3"><div class="col-md-3">
-    <img data-featherlight='C:\Users\mahes\eclipse-workspace\SeleniumFrameworkDesign//reports//productErrorValidation.png' src="C:\Users\mahes\eclipse-workspace\SeleniumFrameworkDesign//reports//productErrorValidation.png">
-    <div class="title">productErrorValidation</div>
-    </div></div>
-<div class="detail-body mt-4">
+</div><div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>5:22:25 pm</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:15:12 pm</td>
         <td>
-          <textarea readonly class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.cssSelector: .mb-3 (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.6.0', revision: '79f1c02ae20'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.94, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\mahes\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53102}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53102/devtoo..., se:cdpVersion: 108.0.5359.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 17272e8df2db28be2682c9ee8225df88
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-	at EndToEndFramework.AbstractComponents.AbstractComponent.waitforElementToAppear(AbstractComponent.java:43)
-	at EndToEndFramework.pageobjects.ProductCatalouge.getProductList(ProductCatalouge.java:34)
-	at EndToEndFramework.pageobjects.ProductCatalouge.getProductByName(ProductCatalouge.java:40)
-	at EndToEndFramework.pageobjects.ProductCatalouge.addProductToCart(ProductCatalouge.java:53)
-	at EndToEndFramework.tests.ErrorValidationsTest.productErrorValidation(ErrorValidationsTest.java:21)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-</textarea>
-          
+          Test Passed
         </td>
       </tr>
   </tbody>
@@ -168,18 +128,18 @@ Session ID: 17272e8df2db28be2682c9ee8225df88
           </div>
           <div class="test-detail">
             <span class="meta text-white badge badge-sm"></span>
-            <p class="name">submitOrder</p>
-            <p class="text-sm"><span>17:22:13 pm</span> / <span>30:21:797</span></p>
+            <p class="name">productErrorValidation</p>
+            <p class="text-sm"><span>13:14:53 pm</span> / <span>30:18:886</span></p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
 <div class='float-right'><span class='badge badge-default'>#test-id=2</span></div>
-<h5 class="test-status text-pass">submitOrder</h5>
-<span class='badge badge-success'>12.10.2022 17:22:13</span>
-<span class='badge badge-danger'>12.10.2022 17:22:35</span>
-<span class='badge badge-default'>30:21:797</span>
+<h5 class="test-status text-pass">productErrorValidation</h5>
+<span class='badge badge-success'>12.11.2022 13:14:53</span>
+<span class='badge badge-danger'>12.11.2022 13:15:12</span>
+<span class='badge badge-default'>30:18:886</span>
 </div>
 </div>
 </div><div class="detail-body mt-4">
@@ -188,7 +148,7 @@ Session ID: 17272e8df2db28be2682c9ee8225df88
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>5:22:35 pm</td>
+        <td>1:15:12 pm</td>
         <td>
           Test Passed
         </td>
@@ -207,18 +167,18 @@ Session ID: 17272e8df2db28be2682c9ee8225df88
           </div>
           <div class="test-detail">
             <span class="meta text-white badge badge-sm"></span>
-            <p class="name">validateMesssage</p>
-            <p class="text-sm"><span>17:22:32 pm</span> / <span>30:02:144</span></p>
+            <p class="name">submitOrder</p>
+            <p class="text-sm"><span>13:15:17 pm</span> / <span>30:18:954</span></p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
 <div class='float-right'><span class='badge badge-default'>#test-id=3</span></div>
-<h5 class="test-status text-pass">validateMesssage</h5>
-<span class='badge badge-success'>12.10.2022 17:22:32</span>
-<span class='badge badge-danger'>12.10.2022 17:22:34</span>
-<span class='badge badge-default'>30:02:144</span>
+<h5 class="test-status text-pass">submitOrder</h5>
+<span class='badge badge-success'>12.11.2022 13:15:17</span>
+<span class='badge badge-danger'>12.11.2022 13:15:36</span>
+<span class='badge badge-default'>30:18:954</span>
 </div>
 </div>
 </div><div class="detail-body mt-4">
@@ -227,7 +187,7 @@ Session ID: 17272e8df2db28be2682c9ee8225df88
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>5:22:34 pm</td>
+        <td>1:15:36 pm</td>
         <td>
           Test Passed
         </td>
@@ -246,18 +206,18 @@ Session ID: 17272e8df2db28be2682c9ee8225df88
           </div>
           <div class="test-detail">
             <span class="meta text-white badge badge-sm"></span>
-            <p class="name">submitOrder</p>
-            <p class="text-sm"><span>17:22:40 pm</span> / <span>30:04:921</span></p>
+            <p class="name">validateMesssage</p>
+            <p class="text-sm"><span>13:15:19 pm</span> / <span>30:01:165</span></p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
 <div class='float-right'><span class='badge badge-default'>#test-id=4</span></div>
-<h5 class="test-status text-pass">submitOrder</h5>
-<span class='badge badge-success'>12.10.2022 17:22:40</span>
-<span class='badge badge-danger'>12.10.2022 17:22:45</span>
-<span class='badge badge-default'>30:04:921</span>
+<h5 class="test-status text-pass">validateMesssage</h5>
+<span class='badge badge-success'>12.11.2022 13:15:19</span>
+<span class='badge badge-danger'>12.11.2022 13:15:20</span>
+<span class='badge badge-default'>30:01:165</span>
 </div>
 </div>
 </div><div class="detail-body mt-4">
@@ -266,7 +226,7 @@ Session ID: 17272e8df2db28be2682c9ee8225df88
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>5:22:45 pm</td>
+        <td>1:15:20 pm</td>
         <td>
           Test Passed
         </td>
@@ -286,7 +246,7 @@ Session ID: 17272e8df2db28be2682c9ee8225df88
           <div class="test-detail">
             <span class="meta text-white badge badge-sm"></span>
             <p class="name">orderHistoryTest</p>
-            <p class="text-sm"><span>17:22:49 pm</span> / <span>30:11:676</span></p>
+            <p class="text-sm"><span>13:15:41 pm</span> / <span>30:12:303</span></p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
@@ -294,13 +254,13 @@ Session ID: 17272e8df2db28be2682c9ee8225df88
 <div class="info">
 <div class='float-right'><span class='badge badge-default'>#test-id=5</span></div>
 <h5 class="test-status text-fail">orderHistoryTest</h5>
-<span class='badge badge-success'>12.10.2022 17:22:49</span>
-<span class='badge badge-danger'>12.10.2022 17:23:01</span>
-<span class='badge badge-default'>30:11:676</span>
+<span class='badge badge-success'>12.11.2022 13:15:41</span>
+<span class='badge badge-danger'>12.11.2022 13:15:53</span>
+<span class='badge badge-default'>30:12:303</span>
 </div>
 </div>
 </div>    <div class="row mb-3"><div class="col-md-3">
-    <img data-featherlight='C:\Users\mahes\eclipse-workspace\SeleniumFrameworkDesign//reports//orderHistoryTest.png' src="C:\Users\mahes\eclipse-workspace\SeleniumFrameworkDesign//reports//orderHistoryTest.png">
+    <img data-featherlight='C:\Users\mahes\git\EndToEndFramework\SeleniumFrameworkDesign//reports//orderHistoryTest.png' src="C:\Users\mahes\git\EndToEndFramework\SeleniumFrameworkDesign//reports//orderHistoryTest.png">
     <div class="title">orderHistoryTest</div>
     </div></div>
 <div class="detail-body mt-4">
@@ -309,14 +269,14 @@ Session ID: 17272e8df2db28be2682c9ee8225df88
   <tbody>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>5:23:01 pm</td>
+        <td>1:15:53 pm</td>
         <td>
           <textarea readonly class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.cssSelector: tr td:nth-child(3) (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.94, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\mahes\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56954}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56954/devtoo..., se:cdpVersion: 108.0.5359.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1721287091bb12bff1adfbe72023ca25
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.94, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\mahes\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50034}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50034/devtoo..., se:cdpVersion: 108.0.5359.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5cd0c0f00f23077ea14c050368d79e3c
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
 	at EndToEndFramework.AbstractComponents.AbstractComponent.waitforElementToAppear(AbstractComponent.java:43)
@@ -326,20 +286,21 @@ Session ID: 1721287091bb12bff1adfbe72023ca25
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
@@ -394,14 +355,7 @@ Session ID: 1721287091bb12bff1adfbe72023ca25
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>17:22:13 pm</td>
-<td>
-<a href="#" class="linked" test-id='1' id='1'>productErrorValidation</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>17:22:49 pm</td>
+<td>13:15:41 pm</td>
 <td>
 <a href="#" class="linked" test-id='5' id='5'>orderHistoryTest</a>
 </td>
@@ -423,25 +377,25 @@ Session ID: 1721287091bb12bff1adfbe72023ca25
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Dec 10, 2022 05:21:56 pm</h3>
+<h3>Dec 11, 2022 01:14:42 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Dec 10, 2022 05:23:02 pm</h3>
+<h3>Dec 11, 2022 01:15:54 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>3</h3>
+<h3>4</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>2</h3>
+<h3>1</h3>
 </div></div>
 </div>
 </div>
@@ -457,12 +411,12 @@ Session ID: 1721287091bb12bff1adfbe72023ca25
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='60%'>
-<b>3</b> tests passed
+<div><small data-tooltip='80%'>
+<b>4</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='40%'><b>2</b> tests failed,
+<small data-tooltip='20%'><b>1</b> tests failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -480,9 +434,9 @@ Session ID: 1721287091bb12bff1adfbe72023ca25
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='60%'><b>3</b> events passed</small></div>
+<div><small data-tooltip='80%'><b>4</b> events passed</small></div>
 <div>
-<small data-tooltip='40%'><b>2</b> events failed,
+<small data-tooltip='20%'><b>1</b> events failed,
 <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -510,8 +464,8 @@ Session ID: 1721287091bb12bff1adfbe72023ca25
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 3,
-failParent: 2,
+passParent: 4,
+failParent: 1,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
@@ -527,8 +481,8 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 3,
-failEvents: 2,
+passEvents: 4,
+failEvents: 1,
 warningEvents: 0,
 skipEvents: 0,
 infoEvents: 0
