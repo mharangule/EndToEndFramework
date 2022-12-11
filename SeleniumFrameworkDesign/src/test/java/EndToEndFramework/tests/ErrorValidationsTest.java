@@ -8,7 +8,7 @@ import EndToEndFramework.pageobjects.CartPage;
 import EndToEndFramework.pageobjects.ProductCatalouge;
 
 public class ErrorValidationsTest extends BaseTest {
-	@Test (groups= {"ErroHandling"}) // retryAnalyzer=Retry.class
+	@Test (groups= {"ErroHandling"}) /// retryAnalyzer=Retry.class
 	public void validateMesssage() {
 		landingPage.loginApplication("maheshharangule02@gmail.com", "Mahi@22");
 		Assert.assertEquals("Incorrect email or password.", landingPage.getErrorMessage());
